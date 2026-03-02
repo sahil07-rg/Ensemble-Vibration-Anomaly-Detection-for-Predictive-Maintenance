@@ -177,18 +177,36 @@ This project demonstrates how classical vibration diagnostics can be integrated 
 •	Real-time streaming implementation
 
 •	Remaining Useful Life (RUL) modeling
-  
+
+### Results and plots
+![raw_data](result/plot/raw_data.png)
+
+![FFT plot](result/plot/FFT_plot.png)
+
+![fftwith_hanning plot](result/plot/fftwith_hanning.png)
+
+![PSD plot](result/plot/PSD_plot.png)
+
+![PSD_after_FFTplot](result/plot/PSD_after_FFT.png)
+
+![Spectogram plot](result/plot/Spectogram.png)
+
+
+
 ### 📁 Repository Structure
 
   ├── README.md
   
   ├── requirements.txt
   
-  ├── notebooks/
+  ├── data/
   
-  ├── src/
+  ├── .gitignore
   
   ├── results/
+  
+  ├── Notebook/
+  
   
 
 ### 📦 Installation:
