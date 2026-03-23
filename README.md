@@ -286,6 +286,37 @@ This project demonstrates how classical vibration diagnostics can be integrated 
 
 ![Spectogram plot](result/plot/Spectogram.png)
 
+![anomaly_by_ISO](result/plot/anomaly_by_ISO.png)
+
+![envelope_spectrum](result/plot/envelope_spectrum.png)
+
+![envelope_signal](result/plot/envelope_signal.png)
+
+![3_model_plot](result/plot/3_model_plot.png)
+
+![anomaly_ovrtm](result/plot/anomaly_ovrtm.png)
+
+![anomaly_trend](result/plot/anomaly_trend.png)
+
+![feature_overtime(rms)](result/plot/feature_overtime(rms).png)
+
+![degradation_trend](result/plot/degradation_trend.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### 📁 Repository Structure
