@@ -344,6 +344,50 @@ This project demonstrates how classical vibration diagnostics can be integrated 
 
 ![ROC_AUC Coparison](result/ROC_AUC_Coparison.png)
 
+## Model Performance
+
+### Isolation Forest
+- **Precision:** 0.375  
+- **Recall:** 0.1579  
+- **F1 Score:** 0.2222  
+- **ROC-AUC:** 0.4765  
+
+### One-Class SVM
+- **Precision:** 0.4800  
+- **Recall:** 0.6316  
+- **F1 Score:** 0.5455  
+- **ROC-AUC:** 0.5568  
+
+### Autoencoder
+- **Precision:** 0.4000  
+- **Recall:** 0.1053  
+- **F1 Score:** 0.1667  
+- **ROC-AUC:** 0.4598  
+
+### Ensemble (Proposed Method)
+- **Precision:** 0.4286  
+- **Recall:** 0.1579  
+- **F1 Score:** 0.2308  
+- **ROC-AUC:** 0.5651  
+
+---
+
+## Summary Table
+
+| Model | Precision | Recall | F1 Score | ROC-AUC |
+|--------|-----------|---------|-----------|----------|
+| ISO | 0.375 | 0.158 | 0.222 | 0.476 |
+| SVM | 0.480 | 0.632 | 0.545 | 0.557 |
+| AE | 0.400 | 0.105 | 0.167 | 0.460 |
+| ENS (Proposed) | 0.429 | 0.158 | 0.231 | **0.565** |
+
+---
+
+## Key Observation
+
+The proposed **ENS (Ensemble)** model achieved the highest **ROC-AUC score (0.565)** among all evaluated methods, indicating improved threshold-independent anomaly discrimination capability for vibration-based anomaly detection.
+
+
 
 ### 📁 Repository Structure
 
