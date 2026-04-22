@@ -336,6 +336,15 @@ This project demonstrates how classical vibration diagnostics can be integrated 
 ![Count_vs_score(8ch)](result/Count_vs_score(8ch).png)
 
 
+![Trend_comparison_of_models](result/Trend_comparison_of_models.png)
+
+
+![Anomaly_count_comparison](result/Anomaly_count_comparison.png)
+
+
+![ROC_AUC Coparison](result/ROC_AUC Coparison.png)
+
+
 ### 📁 Repository Structure
 
   ├── README.md
